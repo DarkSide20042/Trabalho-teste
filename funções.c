@@ -1,4 +1,4 @@
-// nÃ³ da Ã¡rvore
+// nó da árvore
 typedef struct No {
     int x;
     char historia[300];
@@ -6,13 +6,13 @@ typedef struct No {
     struct No* direita;
 } No;
 
-// FunÃ§Ã£o para criar um novo nÃ³
+// Função para criar um novo nó
 No* criarNo(int x, char historia[300]) {
     No* novoNo = (No*)malloc(sizeof(No));
     novoNo->x = x;
     strcpy(novoNo->historia, historia);
     novoNo->esquerda = NULL;
     novoNo->direita = NULL;
-    //return novoNo permite q eu consiga acessar o endereÃ§o de memoria do nÃ³ recem criado assim conseguindo usa-lo na arvore
+    //return novoNo permite q eu consiga acessar o endereço de memoria do nó recem criado assim conseguindo usa-lo na arvore
     return novoNo;
 }

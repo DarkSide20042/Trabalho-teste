@@ -2,20 +2,20 @@
 
 
 int main() {
-    // raiz da 谩rvore
+    // raiz da 醨vore
     No* raiz = criarNo(1, "Idade medieval");
 
-    // n贸s filhos
+    // n髎 filhos
     raiz->esquerda = criarNo(5, "escolha 1");
     raiz->direita = criarNo(10, "escolha 2");
 
-    // n贸s filhos dos n贸s filhos
+    // n髎 filhos dos n髎 filhos
     raiz->esquerda->esquerda = criarNo(3, "escolha 3");
     raiz->esquerda->direita = criarNo(6, "escolha 4");
     raiz->direita->esquerda = criarNo(7, "escolha 5");
     raiz->direita->direita = criarNo(11, "escolha 6");
 
-    // Teste para ver se os n贸s est茫o funcionando
+    // Teste para ver se os n髎 est鉶 funcionando
     printf("Valor da raiz: %d, Historia: %s\n", raiz->x, raiz->historia);
     printf("Valor do filho esquerdo: %d, Historia: %s\n", raiz->esquerda->x, raiz->esquerda->historia);
     printf("Valor do filho direito: %d, Historia: %s\n", raiz->direita->x, raiz->direita->historia);
