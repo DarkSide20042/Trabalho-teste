@@ -3,7 +3,7 @@ Criar as estruturas()
 fazer funcionar sem nenhum erro()
 criar as historias()
 /////////////////////////////
-ideias novas:
+gastei boa parte do tempo aprendendo a ultilizar a arvore, ent o progresso atualmente n foi grande, mas ja é um grande passo para criar as outras 3 arvores, faltando só implementar as 3 arvores a forma de navegação eficiente e o uso de arquivos, para salvar o caminho feito pelo jogador
 -
 -
 -
