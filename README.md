@@ -1,4 +1,3 @@
 # Jogo de escolhas teste:
 Autor:Wanderlei Jr
-o trabalho vai consis  em criar um jogo de escolhas  utilizando  a estrutura de dados arvores, tendo um medo q ultilizara a estrutura de dados lista. 
-o projeto esta em fase inicial  então tem muito a se fazer principalmente  em conseguir fazer a estrutura de base funcionar sem  nenhum erro e  colocar historias com alguma relevancia para o  jogador/leitor.
+bem o trabalho passou por algumas mudanças como não usar mais lista, para os menus visto que é ineficiente, entretanto ainda usarei arvores e adicionarei arquivos, assim salvando o caminho percorrido pelo jogador durante sua jornada;
